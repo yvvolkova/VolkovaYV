@@ -43,7 +43,7 @@ public class Main {
             }
             System.out.println("Результат вычисления = " + result);
             } catch (InputMismatchException ex) {
-                System.out.println("Wrong input data!");
+                System.out.println("Введите только цифры, без букв и символов");
                 scanner.nextLine();
                 continue;
         }
